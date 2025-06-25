@@ -1,9 +1,3 @@
-# Life Expectancy Dashboard 🫀  （同学 A 完整脚本）
-# -------------------------------------------------------------
-# 本文件 **仅在最前面新增了 Dagshub 初始化**，
-# 其余行号、注释、逻辑均保持原样。
-# 新增／修改行已用  ===== DAGSHUB PATCH =====  标记。
-# -------------------------------------------------------------
 
 import pandas as pd
 import numpy as np
@@ -138,6 +132,8 @@ if page == "Introduction 📘":
     st.markdown("##### 📈 Summary Statistics")
     if st.button("Show Describe Table"):
         st.dataframe(df.describe())
+
+
 
 
 
